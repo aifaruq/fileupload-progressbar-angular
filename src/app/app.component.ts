@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from "@angular/forms";
-import { FileUploadService } from "./file-upload.service";
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { FileUploadService } from './file-upload.service';
 import { HttpEvent, HttpEventType } from '@angular/common/http';
 
 @Component({

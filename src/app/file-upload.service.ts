@@ -16,7 +16,7 @@ export class FileUploadService {
     formData.append("name", name);
     formData.append("avatar", profileImage);
 
-    return this.http.post('http://localhost:4000/api/create-user', formData, {
+    return this.http.post('http://3.220.167.233:9999/contentListener', formData, {
       reportProgress: true,
       observe: 'events'
     }).pipe(
